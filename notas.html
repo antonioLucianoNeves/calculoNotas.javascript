@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html lang="pt-br">
+    <head>
+	     <title>Minha pagina</title>
+		 <script type="text/javascript" src="calcular.js"></script>
+	</head>
+   <body>
+      <div>
+         <h1>A media da Turma!</h1><br />
+         <div id="total">
+             <input type="text" id="totalNotas" value="3" placeholder="Informe a media">
+			 <button type="button" onclick="Calcular.exibirEntradas();">OK</button>
+		 </div>
+		 <div id="calculo" style ="display: none"></div>
+		     <div id="entradas"></div>
+		     <button type="button" onclick="Calcular.calcularMedia();">Calcular</button>
+			 <div id="resultado"></div>
+		 
+	  </div>	 	 
+   </body>
+</html>
